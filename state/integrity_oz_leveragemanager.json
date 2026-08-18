@@ -1,0 +1,58 @@
+[
+  {
+    "file": "access/AccessControlUpgradeable.sol",
+    "repo": "openzeppelin-contracts-upgradeable",
+    "status": "IDENTICAL",
+    "matched_tag": "v5.1.0",
+    "sha": "af65f33d5d4ee58b"
+  },
+  {
+    "file": "proxy/utils/UUPSUpgradeable.sol",
+    "repo": "openzeppelin-contracts-upgradeable",
+    "status": "IDENTICAL",
+    "matched_tag": "v5.1.0",
+    "sha": "3c76952e97e1cacf"
+  },
+  {
+    "file": "proxy/utils/Initializable.sol",
+    "repo": "openzeppelin-contracts-upgradeable",
+    "status": "IDENTICAL",
+    "matched_tag": "v5.1.0",
+    "sha": "a8b7eafa0fdc7cb5"
+  },
+  {
+    "file": "token/ERC20/ERC20Upgradeable.sol",
+    "repo": "openzeppelin-contracts-upgradeable",
+    "status": "IDENTICAL",
+    "matched_tag": "v5.1.0",
+    "sha": "aaabbd0bac5de418"
+  },
+  {
+    "file": "utils/ReentrancyGuardTransientUpgradeable.sol",
+    "repo": "openzeppelin-contracts-upgradeable",
+    "status": "IDENTICAL",
+    "matched_tag": "v5.1.0",
+    "sha": "9b7f12fb4521bcc0"
+  },
+  {
+    "file": "proxy/ERC1967/ERC1967Utils.sol",
+    "repo": "openzeppelin-contracts",
+    "status": "IDENTICAL",
+    "matched_tag": "v5.1.0",
+    "sha": "2ba1cb9e2c1a0518"
+  },
+  {
+    "file": "utils/cryptography/ECDSA.sol",
+    "repo": "openzeppelin-contracts",
+    "status": "IDENTICAL",
+    "matched_tag": "v5.1.0",
+    "sha": "0964ddd02f4a7a8c"
+  },
+  {
+    "file": "token/ERC20/utils/SafeERC20.sol",
+    "repo": "openzeppelin-contracts",
+    "status": "IDENTICAL",
+    "matched_tag": "v5.1.0",
+    "sha": "d67b0f3d9302b2ff"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "address": "0xcba28b38103307ec8da98377fff9816c164f9afa",
+  "verified": true,
+  "proxy": true,
+  "implementation": "0xd9db270c1b5e3bd161e8c8503c55ceabee709552",
+  "name": "GnosisSafeProxy",
+  "compiler": "v0.7.6+commit.7338295f",
+  "constructor_args": "",
+  "evm_version": "Default",
+  "optimization": "0",
+  "runs": "200",
+  "dep_addresses": [
+    "0xa619486e00000000000000000000000000000000",
+    "0xffffffffffffffffffffffffffffffffffffffff"
+  ],
+  "files": [
+    "../contracts/GnosisSafeProxy_0xcba28b38103307ec8da98377fff9816c164f9afa/Contract.sol"
+  ],
+  "abi_present": true
+}

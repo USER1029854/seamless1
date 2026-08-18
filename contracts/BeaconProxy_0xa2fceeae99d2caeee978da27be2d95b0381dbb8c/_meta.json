@@ -1,0 +1,28 @@
+{
+  "address": "0xa2fceeae99d2caeee978da27be2d95b0381dbb8c",
+  "verified": true,
+  "proxy": true,
+  "implementation": "0x603da735780e6bc7d04f3fb85c26dcccd4ff0a82",
+  "name": "BeaconProxy",
+  "compiler": "v0.8.26+commit.8a97fa7a",
+  "constructor_args": "000000000000000000000000e0b2e40edeb53b96c923381509a25a615c1abe57000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e49065714700000000000000000000000038ba21c6bf31df1b1798fced07b4e9b07c5ec3a8000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000001f7765455448202f205745544820313778204c6576657261676520546f6b656e00000000000000000000000000000000000000000000000000000000000000000e57454554482d574554482d31377800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "evm_version": "cancun",
+  "optimization": "0",
+  "runs": "200",
+  "dep_addresses": [
+    "0x360894a13ba1a3210667c828492db98dca3e2076",
+    "0xa3f0ad74e5423aebfd80d3ef4346578335a9a72a",
+    "0xb53127684a568b3173ae13b9f8a6016e243e63b6"
+  ],
+  "files": [
+    "../contracts/BeaconProxy_0xa2fceeae99d2caeee978da27be2d95b0381dbb8c/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/proxy/beacon/BeaconProxy.sol",
+    "../contracts/BeaconProxy_0xa2fceeae99d2caeee978da27be2d95b0381dbb8c/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/proxy/beacon/IBeacon.sol",
+    "../contracts/BeaconProxy_0xa2fceeae99d2caeee978da27be2d95b0381dbb8c/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/proxy/Proxy.sol",
+    "../contracts/BeaconProxy_0xa2fceeae99d2caeee978da27be2d95b0381dbb8c/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Utils.sol",
+    "../contracts/BeaconProxy_0xa2fceeae99d2caeee978da27be2d95b0381dbb8c/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/interfaces/IERC1967.sol",
+    "../contracts/BeaconProxy_0xa2fceeae99d2caeee978da27be2d95b0381dbb8c/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/Address.sol",
+    "../contracts/BeaconProxy_0xa2fceeae99d2caeee978da27be2d95b0381dbb8c/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/StorageSlot.sol",
+    "../contracts/BeaconProxy_0xa2fceeae99d2caeee978da27be2d95b0381dbb8c/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/Errors.sol"
+  ],
+  "abi_present": true
+}

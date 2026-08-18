@@ -1,0 +1,30 @@
+{
+  "address": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb",
+  "verified": true,
+  "proxy": false,
+  "implementation": null,
+  "name": "Morpho",
+  "compiler": "v0.8.19+commit.7dd6d404",
+  "constructor_args": "000000000000000000000000937ce2d6c488b361825d2db5e8a70e26d48afed5",
+  "evm_version": "paris",
+  "optimization": "1",
+  "runs": "999999",
+  "dep_addresses": [],
+  "files": [
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/Morpho.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/interfaces/IMorpho.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/interfaces/IMorphoCallbacks.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/interfaces/IIrm.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/interfaces/IERC20.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/interfaces/IOracle.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/libraries/ConstantsLib.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/libraries/UtilsLib.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/libraries/EventsLib.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/libraries/ErrorsLib.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/libraries/MathLib.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/libraries/SharesMathLib.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/libraries/MarketParamsLib.sol",
+    "../contracts/Morpho_0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb/src/libraries/SafeTransferLib.sol"
+  ],
+  "abi_present": true
+}

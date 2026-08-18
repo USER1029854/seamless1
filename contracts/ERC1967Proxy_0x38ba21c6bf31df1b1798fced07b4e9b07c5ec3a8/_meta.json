@@ -1,0 +1,28 @@
+{
+  "address": "0x38ba21c6bf31df1b1798fced07b4e9b07c5ec3a8",
+  "verified": true,
+  "proxy": true,
+  "implementation": "0xfe9101349354e278970489f935a54905de2e1856",
+  "name": "ERC1967Proxy",
+  "compiler": "v0.8.26+commit.8a97fa7a",
+  "constructor_args": "000000000000000000000000eb0221bf6cdaa74c94129771d5b0c9a994bb2b7c00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000064c0c53b8b000000000000000000000000639d2dd24304ac2e6a691d8c1cff4a2665925fee000000000000000000000000639d2dd24304ac2e6a691d8c1cff4a2665925fee000000000000000000000000e0b2e40edeb53b96c923381509a25a615c1abe5700000000000000000000000000000000000000000000000000000000",
+  "evm_version": "cancun",
+  "optimization": "0",
+  "runs": "200",
+  "dep_addresses": [
+    "0x360894a13ba1a3210667c828492db98dca3e2076",
+    "0xa3f0ad74e5423aebfd80d3ef4346578335a9a72a",
+    "0xb53127684a568b3173ae13b9f8a6016e243e63b6"
+  ],
+  "files": [
+    "../contracts/ERC1967Proxy_0x38ba21c6bf31df1b1798fced07b4e9b07c5ec3a8/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Proxy.sol",
+    "../contracts/ERC1967Proxy_0x38ba21c6bf31df1b1798fced07b4e9b07c5ec3a8/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/proxy/Proxy.sol",
+    "../contracts/ERC1967Proxy_0x38ba21c6bf31df1b1798fced07b4e9b07c5ec3a8/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Utils.sol",
+    "../contracts/ERC1967Proxy_0x38ba21c6bf31df1b1798fced07b4e9b07c5ec3a8/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/proxy/beacon/IBeacon.sol",
+    "../contracts/ERC1967Proxy_0x38ba21c6bf31df1b1798fced07b4e9b07c5ec3a8/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/interfaces/IERC1967.sol",
+    "../contracts/ERC1967Proxy_0x38ba21c6bf31df1b1798fced07b4e9b07c5ec3a8/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/Address.sol",
+    "../contracts/ERC1967Proxy_0x38ba21c6bf31df1b1798fced07b4e9b07c5ec3a8/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/StorageSlot.sol",
+    "../contracts/ERC1967Proxy_0x38ba21c6bf31df1b1798fced07b4e9b07c5ec3a8/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/Errors.sol"
+  ],
+  "abi_present": true
+}

@@ -1,0 +1,25 @@
+{
+  "address": "0xce629400c6aedb64f087cac40ae6a382aeeef490",
+  "verified": true,
+  "proxy": false,
+  "implementation": null,
+  "name": "MorphoChainlinkOracleV2",
+  "compiler": "v0.8.21+commit.d9974bed",
+  "constructor_args": "",
+  "evm_version": "paris",
+  "optimization": "1",
+  "runs": "999999",
+  "dep_addresses": [],
+  "files": [
+    "../contracts/MorphoChainlinkOracleV2_0xce629400c6aedb64f087cac40ae6a382aeeef490/src/morpho-chainlink/MorphoChainlinkOracleV2.sol",
+    "../contracts/MorphoChainlinkOracleV2_0xce629400c6aedb64f087cac40ae6a382aeeef490/lib/morpho-blue/src/interfaces/IOracle.sol",
+    "../contracts/MorphoChainlinkOracleV2_0xce629400c6aedb64f087cac40ae6a382aeeef490/src/morpho-chainlink/interfaces/IMorphoChainlinkOracleV2.sol",
+    "../contracts/MorphoChainlinkOracleV2_0xce629400c6aedb64f087cac40ae6a382aeeef490/src/morpho-chainlink/libraries/ErrorsLib.sol",
+    "../contracts/MorphoChainlinkOracleV2_0xce629400c6aedb64f087cac40ae6a382aeeef490/src/morpho-chainlink/libraries/VaultLib.sol",
+    "../contracts/MorphoChainlinkOracleV2_0xce629400c6aedb64f087cac40ae6a382aeeef490/lib/openzeppelin-contracts/contracts/utils/math/Math.sol",
+    "../contracts/MorphoChainlinkOracleV2_0xce629400c6aedb64f087cac40ae6a382aeeef490/src/morpho-chainlink/libraries/ChainlinkDataFeedLib.sol",
+    "../contracts/MorphoChainlinkOracleV2_0xce629400c6aedb64f087cac40ae6a382aeeef490/src/morpho-chainlink/interfaces/IERC4626.sol",
+    "../contracts/MorphoChainlinkOracleV2_0xce629400c6aedb64f087cac40ae6a382aeeef490/src/morpho-chainlink/interfaces/AggregatorV3Interface.sol"
+  ],
+  "abi_present": true
+}

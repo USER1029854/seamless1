@@ -1,0 +1,36 @@
+{
+  "address": "0x764a8f2fced3565ee599dde2d5150a69234d7fea",
+  "verified": true,
+  "proxy": false,
+  "implementation": null,
+  "name": "AccessControlledOCR2Aggregator",
+  "compiler": "v0.8.19+commit.7dd6d404",
+  "constructor_args": "",
+  "evm_version": "paris",
+  "optimization": "1",
+  "runs": "10000",
+  "dep_addresses": [
+    "0x0001010101010101010101010101010101010101"
+  ],
+  "files": [
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/AccessControlledOCR2Aggregator.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/ConfirmedOwner.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/ConfirmedOwnerWithProposal.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/OCR2Abstract.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/OCR2Aggregator.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/OCRConfigurationStoreEVMSimple.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/OwnerIsCreator.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/SimpleReadAccessController.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/SimpleWriteAccessController.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/interfaces/AccessControllerInterface.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/interfaces/AggregatorInterface.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/interfaces/AggregatorV2V3Interface.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/interfaces/AggregatorV3Interface.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/interfaces/AggregatorValidatorInterface.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/interfaces/LinkTokenInterface.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/interfaces/OwnableInterface.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/interfaces/TypeAndVersionInterface.sol",
+    "../contracts/AccessControlledOCR2Aggregator_0x764a8f2fced3565ee599dde2d5150a69234d7fea/src/lib/ConfigDigestUtilEVMSimple.sol"
+  ],
+  "abi_present": true
+}

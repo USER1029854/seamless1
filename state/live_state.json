@@ -1,0 +1,127 @@
+{
+  "chain": 8453,
+  "block": 50121148,
+  "captured_utc": "2026-08-18",
+  "authority": {
+    "leverage_manager_proxy": "0x38ba21c6bf31df1b1798fced07b4e9b07c5ec3a8",
+    "DEFAULT_ADMIN_ROLE": [
+      "0x639d2dd24304ac2e6a691d8c1cff4a2665925fee (SeamTimelockController, 48h)"
+    ],
+    "UPGRADER_ROLE": [
+      "0x639d2dd24304ac2e6a691d8c1cff4a2665925fee (SeamTimelockController, 48h)"
+    ],
+    "FEE_MANAGER_ROLE": [
+      "(none granted)"
+    ],
+    "rebalance_adapter_owner": "0x639d2dd24304ac2e6a691d8c1cff4a2665925fee (upgrade + all rebalance params)",
+    "beacon_factory_owner": "0x639d2dd24304ac2e6a691d8c1cff4a2665925fee (can upgrade ALL leverage tokens via beacon)",
+    "timelock_min_delay_s": 172800,
+    "timelock_PROPOSER": [
+      "0x8768c789c6df8af1a92d96de823b4f80010db294 (SeamGovernorV2)"
+    ],
+    "timelock_EXECUTOR": [
+      "0x8768c789c6df8af1a92d96de823b4f80010db294 (SeamGovernorV2)"
+    ],
+    "timelock_CANCELLER": [
+      "0x8768c789c6df8af1a92d96de823b4f80010db294 (SeamGovernorV2)",
+      "0xa1b5f2cc9b407177cd8a4acf1699fa0b99955a22 (Guardian Safe 2/3)"
+    ],
+    "timelock_DEFAULT_ADMIN": [
+      "0xa96448469520666edc351eff7676af2247b16718 (2nd SeamTimelockController)"
+    ],
+    "governor_token": "0x1c7a460413dd4e964f96d8dfc56e7223ce88cd85 (SEAM votes)",
+    "governor_params": {
+      "votingDelay_s": 172800,
+      "votingPeriod_s": 259200,
+      "proposalThreshold": "200000e18",
+      "quorumNumerator_pct": 15
+    },
+    "guardian_safe": "0xa1b5f2cc9b407177cd8a4acf1699fa0b99955a22 (2-of-3)",
+    "deployer_authorizedCreator_EOA": "0x0b26272fa3e0981e027a1a83c225cb09b2bd3c32",
+    "long_timelock": {
+      "address": "0xa96448469520666edc351eff7676af2247b16718",
+      "min_delay_s": 432000,
+      "role": "DEFAULT_ADMIN of the 48h timelock (can grant/revoke its roles)",
+      "PROPOSER_EXECUTOR": "0x04faa2826dbb38a7a4e9a5e3db26b9e389e761b6 (SeamGovernorV2 long)",
+      "CANCELLER": [
+        "0xa1b5f2cc9b407177cd8a4acf1699fa0b99955a22 (Guardian Safe 2/3)",
+        "0x04faa2826dbb38a7a4e9a5e3db26b9e389e761b6"
+      ],
+      "DEFAULT_ADMIN": "self"
+    },
+    "governor_impl_shared": "0xc3a36d72be57866ec4751d709b5bef67efa9baef (SeamGovernorV2, used by both short 0x8768c789 and long 0x04faa282)",
+    "guardian_safe_owners": [
+      "0x53352a00316573e8f52696c572f1293ac877ef4d",
+      "0x41240c8e3034838dcc3ee385b323a9b9d82f7a4b",
+      "0x490cfd8aab408267bc3087e291a8563493c43e8d"
+    ]
+  },
+  "config": {
+    "treasury": "0x639d2dd24304ac2e6a691d8c1cff4a2665925fee",
+    "default_mgmt_fee_at_creation": 0,
+    "treasury_action_fee_mint": 0,
+    "treasury_action_fee_redeem": 0,
+    "leverage_token": "0xa2fceeae99d2caeee978da27be2d95b0381dbb8c",
+    "lt_name": "weETH / WETH 17x Leverage Token",
+    "lt_symbol": "WEETH-WETH-17x",
+    "lt_mint_fee": 0,
+    "lt_redeem_fee": 10,
+    "lt_fee_scale": "1e4 (10 => 0.10%)",
+    "rebalance": {
+      "minCR": 1.06135,
+      "targetCR": 1.0625,
+      "maxCR": 1.062893082,
+      "preLiqThresholdCR": 1.06061,
+      "auctionDuration_s": 3600,
+      "initialPriceMultiplier": 1.01,
+      "minPriceMultiplier": 0.999,
+      "rebalanceReward_bps_of_10000": 3000
+    },
+    "morpho_market": {
+      "id": "0xfd0895ba253889c243bf59bc4b96fd1e06d68631241383947b04d1c293a0cfea",
+      "loanToken": "0x4200000000000000000000000000000000000006 (WETH)",
+      "collateralToken": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a (weETH)",
+      "oracle": "0xce629400c6aedb64f087cac40ae6a382aeeef490 (MorphoChainlinkOracleV2)",
+      "irm": "0x46415998764c29ab2a25cbea6254146d50d22687 (AdaptiveCurveIrm)",
+      "lltv": 0.945
+    },
+    "oracle": {
+      "BASE_FEED_1": "0x35e9d7001819ea3b39da906ae6b06a62cfe2c181 (weETH/eETH ExchangeRate, EACAggregatorProxy)",
+      "underlying_aggregator": "0x764a8f2fced3565ee599dde2d5150a69234d7fea (Chainlink AccessControlledOCR2Aggregator)",
+      "feed_owner_safe": "0xf0db7318a51a21c413cadd4abdc1e8a500fe5b1b (4-of-9)",
+      "other_feeds_vaults": "all zero (single feed)",
+      "price_1e36": 1101667258814804880000000000000000000
+    },
+    "collateral_weETH": {
+      "proxy_admin": "0x2f6f3cc4a275c7951fb79199f01ed82421edfb68 (OZ v5 ProxyAdmin, UNVERIFIED-recovered)",
+      "proxy_admin_owner": "0x851dd540f4d2ec78120de0a0cc87b21ede5df5c6 (EtherFiTimelock)",
+      "oft_owner": "0x851dd540f4d2ec78120de0a0cc87b21ede5df5c6 (EtherFiTimelock)",
+      "lz_endpoint": "0x1a44076050125825900e736c501f859c50fe728c (LayerZero EndpointV2)",
+      "shared_decimals": 6,
+      "totalSupply_weETH_on_base": 16550.71
+    },
+    "morpho_owner": "0xcba28b38103307ec8da98377fff9816c164f9afa (Morpho DAO Safe 5-of-9)",
+    "morpho_fee_recipient": "0x0 (no protocol fee)"
+  },
+  "live_position": {
+    "lt_total_supply": 1.1704531459208172,
+    "collateralInDebtAsset_WETH": 22.176264422390908,
+    "debt_WETH": 20.84699968360143,
+    "equity_WETH": 1.329264738789477,
+    "collateralRatio": 1.0637628799810026,
+    "adapter_collateral_weETH": 20.12972995698226,
+    "adapter_debt_WETH": 20.84699968360143,
+    "morpho_position": {
+      "supplyShares": 0,
+      "borrowShares": 20257011993749405014065190,
+      "collateral_weETH_raw": 20129729956982260499
+    },
+    "adapter_idle_weETH": 0,
+    "adapter_idle_WETH_wei": 1
+  },
+  "integrity": {
+    "oz_files": "byte-identical to OZ v5.1.0 (see docs/INTEGRITY.md)",
+    "canonical_cross_chain": "Morpho/LayerZero-EndpointV2/GnosisSafeL2 verified same-address Base+mainnet",
+    "weETH_proxyadmin": "unverified -> recovered as OZ v5.0.0 ProxyAdmin"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x46415998764c29ab2a25cbea6254146d50d22687",
+  "verified": true,
+  "proxy": false,
+  "implementation": null,
+  "name": "AdaptiveCurveIrm",
+  "compiler": "v0.8.19+commit.7dd6d404",
+  "constructor_args": "000000000000000000000000bbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb",
+  "evm_version": "paris",
+  "optimization": "1",
+  "runs": "999999",
+  "dep_addresses": [],
+  "files": [
+    "../contracts/AdaptiveCurveIrm_0x46415998764c29ab2a25cbea6254146d50d22687/src/AdaptiveCurveIrm.sol",
+    "../contracts/AdaptiveCurveIrm_0x46415998764c29ab2a25cbea6254146d50d22687/lib/morpho-blue/src/interfaces/IIrm.sol",
+    "../contracts/AdaptiveCurveIrm_0x46415998764c29ab2a25cbea6254146d50d22687/src/interfaces/IAdaptiveCurveIrm.sol",
+    "../contracts/AdaptiveCurveIrm_0x46415998764c29ab2a25cbea6254146d50d22687/src/libraries/UtilsLib.sol",
+    "../contracts/AdaptiveCurveIrm_0x46415998764c29ab2a25cbea6254146d50d22687/src/libraries/ErrorsLib.sol",
+    "../contracts/AdaptiveCurveIrm_0x46415998764c29ab2a25cbea6254146d50d22687/src/libraries/adaptive-curve/ExpLib.sol",
+    "../contracts/AdaptiveCurveIrm_0x46415998764c29ab2a25cbea6254146d50d22687/src/libraries/MathLib.sol",
+    "../contracts/AdaptiveCurveIrm_0x46415998764c29ab2a25cbea6254146d50d22687/src/libraries/adaptive-curve/ConstantsLib.sol",
+    "../contracts/AdaptiveCurveIrm_0x46415998764c29ab2a25cbea6254146d50d22687/lib/morpho-blue/src/libraries/MarketParamsLib.sol",
+    "../contracts/AdaptiveCurveIrm_0x46415998764c29ab2a25cbea6254146d50d22687/lib/morpho-blue/src/interfaces/IMorpho.sol",
+    "../contracts/AdaptiveCurveIrm_0x46415998764c29ab2a25cbea6254146d50d22687/lib/morpho-blue/src/libraries/MathLib.sol"
+  ],
+  "abi_present": true
+}

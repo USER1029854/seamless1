@@ -1,0 +1,17 @@
+{
+  "address": "0x4200000000000000000000000000000000000006",
+  "verified": true,
+  "proxy": false,
+  "implementation": null,
+  "name": "WETH9",
+  "compiler": "v0.5.17+commit.d19bba13",
+  "constructor_args": "",
+  "evm_version": "Default",
+  "optimization": "1",
+  "runs": "10000",
+  "dep_addresses": [],
+  "files": [
+    "../contracts/WETH9_0x4200000000000000000000000000000000000006/Contract.sol"
+  ],
+  "abi_present": true
+}
